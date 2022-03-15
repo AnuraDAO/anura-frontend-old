@@ -1,0 +1,33 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "DevfromAnura",
+      "name": "Dank Dev from Anura",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96317530?v=4",
+      "profile": "https://github.com/DevfromAnura",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "0xBite",
+      "name": "0xBite",
+      "avatar_url": "https://avatars.githubusercontent.com/u/100287453?v=4",
+      "profile": "https://github.com/0xBite",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "anura-frontend",
+  "projectOwner": "AnuraDAO",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
