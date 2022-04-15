@@ -18,6 +18,7 @@ const styles = {
     navButtonsContainer: {
         justifyContent: 'flex-end',
         width: '100%',
+        gap: 6,
         paddingRight: [0, 0, 0, '100px', '100px'],
         alignItems: 'center',
     },

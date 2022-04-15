@@ -7,16 +7,15 @@ const styles = {
             'container.sm',
             'container.sm',
             'container.lg',
-        ]
+        ],
     },
     conceptContent: {
         width: ['100%', '100%', '100%', '100%'],
         alignItems: 'center',
         gap: ['20px', '20px', '20px', 20],
-     
     },
     whatAreDAOSHeading: {
-        marginBottom: "20px"
+        marginBottom: '20px',
     },
     frogImage: {
         display: ['none', 'none', 'none', 'flex'],
