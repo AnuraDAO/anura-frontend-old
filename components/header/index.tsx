@@ -18,16 +18,18 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import styles from './styles'
 import { Link as SmoothScrollLink } from 'react-scroll'
+// import { Link as NextLink } from 'next/link'
+// import Link from 'next/link'
 import { BsMedium } from 'react-icons/bs'
+import { BsChevronDown } from 'react-icons/bs'
 
 const Header = () => {
     const theme = useTheme()
 
     return (
         // @ts-expect-error
-
         <Flex {...styles.backgroundImage}>
-            <Flex {...styles.navBarContainer} id="navbar" zIndex="2">
+            <Flex {...styles.navBarContainer} id="navbar" zIndex="99">
                 <Image src="/images/frog-logo.png" alt="Anura" />
                 <Flex {...styles.navButtonsContainer}>
                     <SmoothScrollLink
@@ -50,6 +52,50 @@ const Header = () => {
                     >
                         <Button {...styles.navButtons}>Roadmap</Button>
                     </SmoothScrollLink>
+
+                    <Menu>
+                        <MenuButton
+                            as={Button}
+                            {...styles.navButtons}
+                            rightIcon={<BsChevronDown />}
+                        >
+                            Applications
+                        </MenuButton>
+                        <MenuList
+                            p={3}
+                            borderRadius={15}
+                            bg="rgb(1, 62, 9 ,0.5)"
+                        >
+                            <MenuItem
+                                {...styles.navButtons}
+                                _hover={{ color: 'yellow' }}
+                            >
+                                <Link
+                                    _focus={{}}
+                                    _hover={{}}
+                                    _active={{}}
+                                    isExternal
+                                    href="https://mint.anuradao.finance/"
+                                >
+                                    Minting dApp
+                                </Link>
+                            </MenuItem>
+                            <MenuItem
+                                {...styles.navButtons}
+                                _hover={{ color: 'yellow' }}
+                            >
+                                <Link
+                                    _focus={{}}
+                                    _hover={{}}
+                                    _active={{}}
+                                    isExternal
+                                    href="https://anuramessaging.live/"
+                                >
+                                    Anura Messaging
+                                </Link>
+                            </MenuItem>
+                        </MenuList>
+                    </Menu>
                 </Flex>
             </Flex>
 

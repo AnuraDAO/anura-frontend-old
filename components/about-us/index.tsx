@@ -4,11 +4,7 @@ import styles from './styles'
 
 const AboutUsComponent = () => {
     return (
-        <Container
-            zIndex="2"
-            id="about-us"
-           {...styles.aboutUsContainer}
-        >
+        <Container zIndex="2" id="about-us" {...styles.aboutUsContainer}>
             <Flex {...styles.rightLeafImageContainer} className="leaf-image">
                 <Image
                     {...styles.rightLeafImage}
@@ -17,13 +13,9 @@ const AboutUsComponent = () => {
                 />
             </Flex>
             <Flex flexDirection="column" {...styles.aboutUsContent}>
-                <Heading
-                    {...styles.aboutUsHeading}
-                >
-                    About Us
-                </Heading>
+                <Heading {...styles.aboutUsHeading}>About Us</Heading>
 
-                <Box>
+                <Box width="70%">
                     <Text color="#ECE8E8" fontSize="1xl">
                         Dip your toads into our pond and learn about the
                         exciting world of Crypto and the DeFi space, discover
