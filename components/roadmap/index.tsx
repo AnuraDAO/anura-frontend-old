@@ -17,7 +17,7 @@ const RoadmapComponent = () => {
             time: 'Q1 2022',
             title: 'Anura Initial Product Development',
             body: `Q1 will include the revamped Anura DAO website and roadmap. These include
-            the beta of AnuraGames including Play-to-earn. The team also will deliver the production Metafrog MiniDAO
+            the alpha of AnuraGames including Play-to-earn. The team also will deliver the production Metafrog MiniDAO
             to support the community's fractionalized investment into the MetaVerse. The Development team is actively participating
             in Moralis and Eth Denver hackathons`,
         },
@@ -25,9 +25,9 @@ const RoadmapComponent = () => {
             id: 2,
             time: 'Q2 2022',
             title: 'Anura Fintech DApps',
-            body: `Q2 will target exciting chain functionality in the Fintech space. Applications include a Multichain Bridge, Cross-Chain
-            Liquidity Bonds to support exposure and liquidity for the bridging, StableFrog stable coin yield farming and auto-compounding,
-            and the Pre-Mint of our community Token.`,
+            body: `Q2 will target exciting chain functionality in the Fintech and consumer space. Applications include a unique wallet messaging application,
+            Multichain Bridge, Cross-Chain Liquidity Bonds to support exposure and liquidity for the bridging, StableFrog stable coin yield farming and auto-compounding,
+            and the Pre-Mint of our community Token on 4/23/2022.`,
         },
         {
             id: 3,

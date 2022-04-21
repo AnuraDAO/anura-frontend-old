@@ -66,6 +66,21 @@ const Header = () => {
                             borderRadius={15}
                             bg="rgb(1, 62, 9 ,0.5)"
                         >
+
+<MenuItem
+                                {...styles.navButtons}
+                                _hover={{ color: 'yellow' }}
+                            >
+                                <Link
+                                    _focus={{}}
+                                    _hover={{}}
+                                    _active={{}}
+                                    isExternal
+                                    href="https://presale.anuradao.finance/"
+                                >
+                                    RIBT Presale
+                                </Link>
+                            </MenuItem>
                             <MenuItem
                                 {...styles.navButtons}
                                 _hover={{ color: 'yellow' }}
@@ -92,6 +107,20 @@ const Header = () => {
                                     href="https://anuramessaging.live/"
                                 >
                                     Anura Messaging
+                                </Link>
+                            </MenuItem>
+                            <MenuItem
+                                {...styles.navButtons}
+                                _hover={{ color: 'yellow' }}
+                            >
+                                <Link
+                                    _focus={{}}
+                                    _hover={{}}
+                                    _active={{}}
+                                    isExternal
+                                    href="https://metafrogminidao.anuradao.finance/"
+                                >
+                                    Metafrog Metaverse MiniDAO
                                 </Link>
                             </MenuItem>
                         </MenuList>
@@ -161,7 +190,7 @@ const Header = () => {
                 {/* @ts-expect-error */}
                 <Box {...styles.launchingSoonContainer}>
                     {/* @ts-expect-error */}
-                    <Text {...styles.launchingSoonHeaders}>LAUNCHING SOON</Text>
+                    <Text {...styles.launchingSoonHeaders}>PRESALE LAUNCHING 4/23/22</Text>
                 </Box>
                 <Flex {...styles.socialLinksContainer}>
                     <Link isExternal href="https://discord.gg/fDHkgfMkGX">

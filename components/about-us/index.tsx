@@ -26,6 +26,19 @@ const AboutUsComponent = () => {
                         Anura, where the tadpoles of today transform into the
                         frogs of tomorrow.
                     </Text>
+                    <Text color="#ECE8E8" fontSize="1xl" paddingTop="20px">
+                        So you may be asking what's going on. AnuraDAO has released multiple exciting projects in anticipation
+                        of the token launch. The three core utility projects open to the public now are....
+                    </Text>
+                    <Text color="#ECE8E8" fontSize="1xl" paddingTop="10px" paddingLeft="10px">
+                    <b style={{color: "green"}}>1) AnuraDAO DigiFrogs Free Mint:</b> A Polygon Network NFT to show off your unique Frog.
+                    </Text>
+                    <Text color="#ECE8E8" fontSize="1xl" paddingTop="10px" paddingLeft="10px">
+                        <b style={{color: "green"}}>2) Anura Messaging:</b> A BSC chain application that allows encrypted wallet to wallet communication.
+                    </Text>
+                    <Text color="#ECE8E8" fontSize="1xl" paddingTop="10px" paddingLeft="10px">
+                    <b style={{color: "green"}}>3) Metafrog MiniDAO:</b> A Polygon chain token that allows for the purchasing of fractionalized NFTs.
+                    </Text>
                 </Box>
             </Flex>
             <Flex {...styles.leftLeafImageContainer} className="leaf-image">
